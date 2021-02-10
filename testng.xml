@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.qa.guruBank.TestCases.LoginTest"/>
+      <class name="com.qa.guruBank.TestCases.HomePageTest"/>
+      <class name="com.qa.guruBank.TestCases.AddNewCustomerTest"/>
+      <class name="com.qa.guruBank.TestCases.FundTransferTest"/>
+      <class name="com.qa.guruBank.TestCases.DepositTest"/>
+      <class name="com.qa.guruBank.TestCases.BalanceEnquiryTest"/>
+      <class name="com.qa.guruBank.TestCases.miniStatementTest"/>          
+      <class name="com.qa.guruBank.TestCases.DeleteAccTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

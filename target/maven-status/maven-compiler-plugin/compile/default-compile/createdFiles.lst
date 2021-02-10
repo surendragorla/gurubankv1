@@ -1,0 +1,12 @@
+com\qa\guruBank\Base\TestBase.class
+com\qa\guruBank\listeners\TestNGListener.class
+com\qa\guruBank\Pages\DeleteAccount.class
+com\qa\guruBank\Pages\NewAccount.class
+com\qa\guruBank\testUtil\Reports.class
+com\qa\guruBank\Pages\AddnewCustomerpage.class
+com\qa\guruBank\testUtil\UtilDetails.class
+com\qa\guruBank\Pages\CustomizedStatementpage.class
+com\qa\guruBank\Pages\HomePage.class
+com\qa\guruBank\Pages\MiniStatement.class
+com\qa\guruBank\Pages\LoginPage.class
+com\qa\guruBank\Pages\EditCustomerForm.class

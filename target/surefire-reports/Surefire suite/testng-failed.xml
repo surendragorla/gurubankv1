@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.qa.guruBank.TestCases.newAccountTest">
+        <methods>
+          <include name="TitleTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="newAccountCreateTest"/>
+        </methods>
+      </class> <!-- com.qa.guruBank.TestCases.newAccountTest -->
+      <class name="com.qa.guruBank.TestCases.miniStatementTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="titleTest"/>
+        </methods>
+      </class> <!-- com.qa.guruBank.TestCases.miniStatementTest -->
+      <class name="com.qa.guruBank.TestCases.CustomisedStatementTest">
+        <methods>
+          <include name="TitleTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.guruBank.TestCases.CustomisedStatementTest -->
+      <class name="com.qa.guruBank.TestCases.DeleteAccTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="TitleTest"/>
+          <include name="deleteAccountTest" invocation-numbers="0 1 2 3 4"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.guruBank.TestCases.DeleteAccTest -->
+      <class name="com.qa.guruBank.TestCases.editCudtomerTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="titleTest"/>
+        </methods>
+      </class> <!-- com.qa.guruBank.TestCases.editCudtomerTest -->
+      <class name="com.qa.guruBank.TestCases.AddNewCustomerTest">
+        <methods>
+          <include name="NewCustomerLogoTest"/>
+          <include name="setUp"/>
+          <include name="titleTest"/>
+          <include name="AddCustomerTest"/>
+        </methods>
+      </class> <!-- com.qa.guruBank.TestCases.AddNewCustomerTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
