@@ -68,11 +68,12 @@ public class newAccountTest extends TestBase {
 	public void newAccountCreateTest(String CustID,String Deposite)
 	{
 		Nacc.verifyNewAccountForm(CustID,Deposite);
+		UtilDetails.alertMethod();
 	}
 	
-	/*
-	 * @AfterMethod public void tearDown() { driver.quit(); }
-	 */
+	
+//	 @AfterMethod public void tearDown() { driver.quit(); }
+//	 
 	
 
 

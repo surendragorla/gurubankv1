@@ -26,7 +26,7 @@ public class UtilDetails extends TestBase  {
 
 	static Workbook book;
 	static Sheet sheet;
-	public static String Xlfilepath="C:\\Users\\sys\\eclipse-workspace\\GuruBankV1\\src\\main\\java\\com\\qa\\guruBank\\TestData\\FreeCRMData.xlsx";
+	public static String Xlfilepath="C:\\Users\\sys\\Desktop\\GuruBankV1\\src\\main\\java\\com\\qa\\guruBank\\TestData\\FreeCRMData.xlsx";
 
 
 	public static Object[][] getTestdata(String SheetName)

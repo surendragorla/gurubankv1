@@ -25,10 +25,12 @@ public class BalanceEnquiryform extends TestBase {
 		return driver.getTitle();
 	}
 	
-	public void verifyBalEnquiry()
+	public void verifyBalEnquiry(String Accno)
 	{
-		accno.sendKeys("34189");
+		accno.sendKeys(Accno);
 		submit.click();
 	}
+
+	
 
 }

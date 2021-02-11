@@ -40,7 +40,7 @@ public class DeleteAccTest extends TestBase {
 	public void TitleTest()
 	{
 		String title=DelACC.verifyTitle();
-		Assert.assertEquals(title, "Guru99 Bank Delete Account Page1");
+		Assert.assertEquals(title, "Guru99 Bank Delete Account Page");
 	}
 	@DataProvider
 	public Object[][] getAccnofromExcel()
