@@ -67,11 +67,8 @@ public class AddNewCustomerTest extends TestBase {
 		newCustomer.verifyNewContactDetails(CustomerName,Dob, Address, City, State, PinCode, MobileNo, Email,Password);
 		
 	}
-	@AfterMethod
-	public void tearDown()
-	{
-		driver.quit();
-	}
-
+	/*
+	 * @AfterMethod public void tearDown() { driver.quit(); }
+	 */
 
 }

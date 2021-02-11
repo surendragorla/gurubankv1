@@ -43,7 +43,7 @@ public class EditCustomerForm extends TestBase {
 	public void verifyEditCustomerForm()
 	{
 		
-		cid.sendKeys("19097");
+		cid.sendKeys("34189");
 		accSubmit.click();
 		editphone.clear();
 		editphone.sendKeys("9573732570");

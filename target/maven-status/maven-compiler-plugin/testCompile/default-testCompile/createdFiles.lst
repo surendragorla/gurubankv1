@@ -2,7 +2,11 @@ com\qa\guruBank\TestCases\LoginTest.class
 com\qa\guruBank\TestCases\newAccountTest.class
 com\qa\guruBank\TestCases\editCudtomerTest.class
 com\qa\guruBank\TestCases\AddNewCustomerTest.class
+com\qa\guruBank\TestCases\FundTransferTest.class
+com\qa\guruBank\TestCases\DepositTest.class
 com\qa\guruBank\TestCases\CustomisedStatementTest.class
 com\qa\guruBank\TestCases\HomePageTest.class
 com\qa\guruBank\TestCases\DeleteAccTest.class
+com\qa\guruBank\TestCases\BalanceEnquiryTest.class
+com\qa\guruBank\TestCases\EditAccTest.class
 com\qa\guruBank\TestCases\miniStatementTest.class

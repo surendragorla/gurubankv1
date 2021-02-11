@@ -29,7 +29,7 @@ public class MiniStatement extends TestBase {
 	@Step("Fetching the miniStatement of given Account")
 	public void verifyMinistatement()
 	{
-		accno.sendKeys("88123");
+		accno.sendKeys("89458");
 		submit.click();
 	}
 

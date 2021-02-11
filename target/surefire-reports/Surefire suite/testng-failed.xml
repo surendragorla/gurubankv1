@@ -3,6 +3,36 @@
 <suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="1" name="Surefire test(failed)" verbose="0">
     <classes>
+      <class name="com.qa.guruBank.TestCases.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="homepageTitleTest"/>
+        </methods>
+      </class> <!-- com.qa.guruBank.TestCases.HomePageTest -->
+      <class name="com.qa.guruBank.TestCases.FundTransferTest">
+        <methods>
+          <include name="fundtransferpageTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="TitleTest"/>
+        </methods>
+      </class> <!-- com.qa.guruBank.TestCases.FundTransferTest -->
+      <class name="com.qa.guruBank.TestCases.LoginTest">
+        <methods>
+          <include name="LoginpageTitleTest"/>
+          <include name="LoginDetailsTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.guruBank.TestCases.LoginTest -->
+      <class name="com.qa.guruBank.TestCases.EditAccTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="TitleTest"/>
+          <include name="EditAccFormTest"/>
+        </methods>
+      </class> <!-- com.qa.guruBank.TestCases.EditAccTest -->
       <class name="com.qa.guruBank.TestCases.newAccountTest">
         <methods>
           <include name="TitleTest"/>
@@ -11,17 +41,20 @@
           <include name="newAccountCreateTest"/>
         </methods>
       </class> <!-- com.qa.guruBank.TestCases.newAccountTest -->
-      <class name="com.qa.guruBank.TestCases.miniStatementTest">
+      <class name="com.qa.guruBank.TestCases.AddNewCustomerTest">
         <methods>
+          <include name="NewCustomerLogoTest"/>
           <include name="setUp"/>
-          <include name="tearDown"/>
           <include name="titleTest"/>
+          <include name="AddCustomerTest"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.qa.guruBank.TestCases.miniStatementTest -->
+      </class> <!-- com.qa.guruBank.TestCases.AddNewCustomerTest -->
       <class name="com.qa.guruBank.TestCases.CustomisedStatementTest">
         <methods>
           <include name="TitleTest"/>
           <include name="tearDown"/>
+          <include name="statementpageTest"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.qa.guruBank.TestCases.CustomisedStatementTest -->
@@ -29,25 +62,44 @@
         <methods>
           <include name="setUp"/>
           <include name="TitleTest"/>
-          <include name="deleteAccountTest" invocation-numbers="0 1 2 3 4"/>
+          <include name="deleteAccountTest"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.qa.guruBank.TestCases.DeleteAccTest -->
       <class name="com.qa.guruBank.TestCases.editCudtomerTest">
         <methods>
+          <include name="EditcustformLogoTest"/>
+          <include name="EditCustomerDataTest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
           <include name="titleTest"/>
         </methods>
       </class> <!-- com.qa.guruBank.TestCases.editCudtomerTest -->
-      <class name="com.qa.guruBank.TestCases.AddNewCustomerTest">
+      <class name="com.qa.guruBank.TestCases.miniStatementTest">
         <methods>
-          <include name="NewCustomerLogoTest"/>
+          <include name="testMini"/>
           <include name="setUp"/>
+          <include name="tearDown"/>
           <include name="titleTest"/>
-          <include name="AddCustomerTest"/>
         </methods>
-      </class> <!-- com.qa.guruBank.TestCases.AddNewCustomerTest -->
+      </class> <!-- com.qa.guruBank.TestCases.miniStatementTest -->
+      <class name="com.qa.guruBank.TestCases.DepositTest">
+        <methods>
+          <include name="logoTest"/>
+          <include name="tearDown"/>
+          <include name="TitleTest"/>
+          <include name="amtDepositTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.guruBank.TestCases.DepositTest -->
+      <class name="com.qa.guruBank.TestCases.BalanceEnquiryTest">
+        <methods>
+          <include name="BalenquiryTest"/>
+          <include name="tearDown"/>
+          <include name="TitleTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.guruBank.TestCases.BalanceEnquiryTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

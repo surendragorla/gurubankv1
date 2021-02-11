@@ -50,16 +50,16 @@ public class HomePageTest extends TestBase {
 		//System.out.println(Title);
 	}
 	
-//	@Test(priority=2,description="Verifying the newCustomer Link")
-//	@Description("The Test Case helps me to verifying  the NewCustomer Link.....  ")
-//	@Severity(SeverityLevel.CRITICAL)	
-//	@Story("[JIRA.1346],This Stroy Checks the basic WebElements in the Homepage")
-//	@Feature("Verifying newCustomer Link.....")
-//	public void NewCustomerTest() throws InterruptedException
-//	{
-//		Thread.sleep(3000);
-//		homepage.verifyNewCustomerLink();
-//	}
+	@Test(priority=2,description="Verifying the newCustomer Link")
+	@Description("The Test Case helps me to verifying  the NewCustomer Link.....  ")
+	@Severity(SeverityLevel.CRITICAL)	
+	@Story("[JIRA.1346],This Stroy Checks the basic WebElements in the Homepage")
+	@Feature("Verifying newCustomer Link.....")
+	public void NewCustomerTest() throws InterruptedException
+	{
+		Thread.sleep(3000);
+		homepage.verifyNewCustomerLink();
+	}
 	
 	@AfterMethod
 	public void tearDown()

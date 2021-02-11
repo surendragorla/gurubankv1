@@ -27,7 +27,7 @@ public class BalanceEnquiryform extends TestBase {
 	
 	public void verifyBalEnquiry()
 	{
-		accno.sendKeys("89458");
+		accno.sendKeys("34189");
 		submit.click();
 	}
 

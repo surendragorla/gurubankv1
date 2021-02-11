@@ -49,12 +49,12 @@ public class EditAccTest extends TestBase {
 		
 	}
 	
-//	@AfterMethod
-//	public void tearDown()
-//	{
-//		driver.quit();
-//	}
-//	
+	@AfterMethod
+	public void tearDown()
+	{
+		driver.quit();
+	}
+	
 	
 
 }

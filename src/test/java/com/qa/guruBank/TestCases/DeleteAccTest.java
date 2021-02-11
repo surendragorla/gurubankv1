@@ -45,7 +45,7 @@ public class DeleteAccTest extends TestBase {
 	@DataProvider
 	public Object[][] getAccnofromExcel()
 	{
-		Object data[][]=UtilDetails.getTestdata("DeleteAcc");
+		Object data[][]=UtilDetails.getTestdata("DelAcc");
 		return data;
 	}
 	

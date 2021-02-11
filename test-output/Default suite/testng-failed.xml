@@ -7,7 +7,7 @@
         <methods>
           <include name="setUp"/>
           <include name="TitleTest"/>
-          <include name="deleteAccountTest" invocation-numbers="1 2 3"/>
+          <include name="deleteAccountTest" invocation-numbers="0 1 2 3 4"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.qa.guruBank.TestCases.DeleteAccTest -->

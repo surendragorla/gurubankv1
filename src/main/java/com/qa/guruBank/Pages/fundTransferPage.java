@@ -5,6 +5,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.qa.guruBank.Base.TestBase;
+import com.qa.guruBank.testUtil.UtilDetails;
 
 public class fundTransferPage extends TestBase {
 	
@@ -47,6 +48,7 @@ public String verifyTitle() {
 		Amount.sendKeys("500");
 		desc.sendKeys("personal");
 		submit.click();
+		UtilDetails.alertMethod();
 		
 	}
 

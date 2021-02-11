@@ -57,7 +57,7 @@ public class newAccountTest extends TestBase {
 	@DataProvider()
 	public Object[][] getAccData()
 	{
-		Object data[][]=UtilDetails.getTestdata("NewAccount");
+		Object data[][]=UtilDetails.getTestdata("NewAcc1");
 		return data;
 	}
 	@Test(priority=2,dataProvider="getAccData")
@@ -70,11 +70,9 @@ public class newAccountTest extends TestBase {
 		Nacc.verifyNewAccountForm(CustID,Deposite);
 	}
 	
-	@AfterMethod
-	public void tearDown()
-	{
-		driver.quit();
-	}
+	/*
+	 * @AfterMethod public void tearDown() { driver.quit(); }
+	 */
 	
 
 
